@@ -1,0 +1,120 @@
+
+
+h1{
+    margin: 5px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-style: bolder;
+    border: palevioletred;
+}
+
+img{
+    height: 150px;
+    width: 250px;
+}
+
+.big-banner{
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 5s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+
+}
+
+.pod{
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    text-indent: 5px;
+
+    
+}
+
+.pod:hover{
+    color:chartreuse;
+    
+}
+
+.popup{
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 200px;
+    padding: 10px 10px;
+    padding-top: 2px;
+    margin-top: 200px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    right: 50%;
+    border-radius: 8px;
+   
+
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+}
+
+.popup button{
+    display: block;
+    margin: 10px 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.module-card {
+    text-decoration: none;
+    color: #333; /* Text color */
+    background-color: #fff; /* Card background color */
+    border: 1px solid #ddd; /* Card border */
+    border-radius: 10px; /* Card border radius */
+    padding: 20px;
+    position: relative; /* Required for the overlay effect */
+    overflow: hidden; /* Hide overflow content (image overlay) */
+}
+
+.module-card img {
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Transition for scaling and opacity */
+}
+
+.module-card:hover img {
+    transform: scale(1.05); /* Scale up image on hover */
+    opacity: 0.8; /* Reduce image opacity on hover */
+}
+
+/* Overlay effect (optional) */
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3); /* Overlay color and opacity */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Transition for opacity */
+}
+
+.module-card:hover .image-overlay {
+    opacity: 1; /* Show overlay on hover */
+}

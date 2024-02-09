@@ -1,0 +1,85 @@
+
+
+h1{
+    margin: 5px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-style: bolder;
+    border: palevioletred;
+}
+
+img{
+    height: 150px;
+    width: 250px;
+}
+
+.big-banner{
+    background-color: brown;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 5s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+
+}
+
+.pod{
+    color: aliceblue;
+    text-decoration:none;
+    text-indent: 5px;
+
+    
+}
+
+.pod:hover{
+    color:chartreuse;
+    
+}
+
+.popup{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 200px;
+    padding: 10px 10px;
+    padding-top: 2px;
+    margin-top: 200px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    right: 50%;
+    border-radius: 8px;
+   
+
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+}
+
+.popup button{
+    display: block;
+    margin: 10px 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+}
+

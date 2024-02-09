@@ -1,0 +1,81 @@
+<div class="container-fluid" id="links">
+    <h4 id="title" class="animated-title">Click Here these Buttons to Download all the lectures/recordings as a Zip File</h4>
+  <button type="button" class="btn btn-dark" id="zip"><a href="" class="text-decoration-none text-light">Lecture Notes</a> </button>
+  &nbsp;<button type="button" class="btn btn-dark" id="zip"><a href="" class="text-decoration-none text-light">Lecture Recordings</a> </button>
+  &nbsp;<button type="button" class="btn btn-dark" id="zip"><a href="https://docs.google.com/file/d/1NMvLwWxyKM3lZ84oNOA_im1sRSNZlWPp/edit?usp=docslist_api&filetype=msword" class="text-decoration-none text-light">GND BAT note by 2017</a> </button>
+  &nbsp;<button type="button" class="btn btn-success"id="zip" (click)="DownloadPDF()">Download the Lecture Topics As PDF</button>
+  
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item text-decoration-none" id="lst"><a routerLink="/">Home</a></li>
+        <li class="breadcrumb-item" id="lst"><a routerLink="/css2">CSS 2</a></li>
+        <li class="breadcrumb-item" aria-current="page" id="lst"><a routerLink="/growth">GND</a></li>
+        <li id= "list" class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Other Modules
+          </a>
+          <ul class="dropdown-menu">          
+            <li><a class="dropdown-item" routerLink="/neuro" >Neurology</a></li>
+            <li><a class="dropdown-item" routerLink="/ophthalmology" >Ophthalmology</a></li>
+            <li><a class="dropdown-item" routerLink="/rehab" >MSK & Rehab</a></li>
+            <li><a class="dropdown-item" routerLink="/mentalhealth" >Mental Health</a></li>
+            <li><a class="dropdown-item" routerLink="/" >Medicolegal 2</a></li>
+            <li><a class="dropdown-item" routerLink="/repro" >Reproductive</a></li>
+            <li><a class="dropdown-item" routerLink="/growth" >Growth and Development 2</a></li>
+            <li><a class="dropdown-item" routerLink="/nutrition" >Nutrition</a></li>
+            <li><a class="dropdown-item" routerLink="/geriactrics" >Geriactrics</a></li>
+            <li><a class="dropdown-item" routerLink="/palliative" >Palliative care</a></li>
+            <li><a class="dropdown-item" routerLink="/family" >Family Medicine</a></li> 
+        </ul>
+        </li>
+    
+      </ol>
+    </nav>
+
+  
+      
+  
+    <ul class="nav justify-content-center" id="tabs">
+      <li class="nav-item " id="lit">
+        <a class="nav-link active text-light" aria-current="page" routerLink="/growth">LECTURES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" routerLink="/growthold">AScS GND</a>
+      </li>
+    </ul>
+
+    <table class="table" id="test">
+        <thead>
+          <tr>
+            <th scope="col">Number</th>
+            <th scope="col">Name</th>
+            <th scope="col">PDF</th>
+            <th scope="col">Audio</th>
+            <th scope="col">Video(if have)</th>
+           
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="fade-in" >
+            <th scope="row">1</th>
+            <td>Abnormal Growth and Puberty</td>
+            <td class="td1"><a href=""><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+            <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>      
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">2</th>
+            <td>PBL Session</td>
+            <td class="td1"><a href=""><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+            <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>      
+          </tr>
+
+
+        </tbody>
+    </table>
+
+
+
+  

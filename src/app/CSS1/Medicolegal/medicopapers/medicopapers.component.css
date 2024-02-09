@@ -1,0 +1,26 @@
+table{
+    margin-top: 10px;
+}
+
+th{
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(235, 185, 133);
+}
+
+td{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.td1{
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    margin-top: 100px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

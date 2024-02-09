@@ -1,0 +1,45 @@
+table{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px;
+}
+
+th{
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(74, 156, 59);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    text-align: left;
+    font-family: Tahoma, sans-serif;
+    font-size:90%;
+    font-weight: bold;
+}
+
+.td1{
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+  .display-days-left {
+    background-color: red !important;
+    color: white;
+  }
+  
+  
+  #zip{
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .pdf{
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+  }

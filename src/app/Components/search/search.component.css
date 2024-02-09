@@ -1,0 +1,60 @@
+div {
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-top: 1.1rem;
+}
+div input {
+    border-radius: 10rem 0 0 10rem;
+    border: none;
+    height: 3rem;
+    width: 22rem;
+    background-color: #f1f1f1;
+    padding: 1.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+    color: black;
+    margin-bottom: 2rem;
+
+    transition: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+}
+div button {
+    height: 3rem;
+    width: 5rem;
+    font-size: 1rem ;
+    border-radius: 0 10rem 10rem 0;
+    border: none;
+    background-color:#f1f1f1;
+    color: white;
+    opacity: 1.8;
+    outline: none; 
+}
+div button:hover {
+    opacity: 1;
+    cursor: pointer;
+    /* background-color:rgb(233, 213, 213); */
+}
+.material-icons {
+    vertical-align: middle;
+    color: rgb(27, 82, 163);
+    position: relative;
+
+    animation-name: micon;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.1s;
+}
+@keyframes micon {
+    0% {
+        transform: scaleX(0) scaleY(0) rotate(0deg);
+    
+    }
+    100% {
+        transform: scaleX(1.1) scaleY(1.1) rotate(360deg);
+    }
+}
+  

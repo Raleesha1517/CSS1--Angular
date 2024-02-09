@@ -1,0 +1,76 @@
+app-navbar{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 4rem;
+    z-index: 2;
+
+}
+
+
+main{
+    position: absolute;
+    width: 100%;
+    top: 4rem;
+    z-index: 1;
+}
+
+app-tabbar{
+    position: absolute;
+    left: 0rem;
+    width: 60px;
+    height: 150vh;
+    background-color: #212529;
+    border-top: 1px solid white;
+    overflow-x: hidden;
+    white-space: nowrap;
+    transition: width 250ms ease-in;
+}
+
+.app-side-nav-open{
+    width: 250px;
+}
+
+.display-area{
+    position: absolute;
+    left:60px;
+    width: calc(100% - 60px);
+    transition: left 250ms ease-in,  width 250ms ease-in;
+}
+
+.display-area-shrink{
+    width: calc(100% - 250px);
+    left:250px;
+}
+
+/* Add CSS classes for mobile and non-mobile views */
+.mobile-only {
+    display: none; /* Initially hide mobilebar */
+  }
+  
+  .non-mobile {
+    display: block; /* Initially show tabbar */
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 426px) {
+    .mobile-only {
+      display: block; /* Show mobilebar in mobile view */
+    }
+  
+    .non-mobile {
+      display: none; /* Hide tabbar in mobile view */
+    }
+  
+    /* Adjust display area for mobile view */
+    .display-area {
+      width: 100%; /* Set display area to full width in mobile */
+      left: 0; /* Reset left position */
+    }
+  
+    .display-area-shrink {
+      width: 100%; /* Set display area to full width in mobile */
+      left: 0; /* Reset left position */
+    }
+  }
+  

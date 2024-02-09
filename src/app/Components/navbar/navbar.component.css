@@ -1,0 +1,43 @@
+/* Add your custom styling if needed */
+.navbar{
+    border-bottom: 2px solid white;
+}
+
+i{
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+}
+
+
+.navbar-nav .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fcfcfc; /* Change to your desired color */
+    transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::before {
+    width: 100%;
+}
+
+
+  .side-nav-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .side-nav-button:hover{
+    background-color: rgb(77, 78, 80);
+    border-radius: 30%;
+  }

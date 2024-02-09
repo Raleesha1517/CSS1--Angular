@@ -1,0 +1,94 @@
+.breadcrumb{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(231, 219, 219);
+    font-weight: bold;
+    position: relative;
+}
+
+.breadcrumb-item :hover{
+    color: rgb(224, 23, 23);
+}
+
+.breadcrumb-item{
+    text-decoration: aqua;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#list{
+    margin-left: 70%;
+    margin-right: auto;
+    position: absolute;
+    margin-top: 0;
+    color: black;
+}
+
+#list :hover{
+    color: rgb(4, 69, 33);
+}
+
+.dropdown-item{
+    margin: 10px;
+    font-family: sans-serif;
+    text-decoration: dashed;
+}
+
+#links{
+    background-color: rgb(236, 241, 206);
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  #zip{
+    position: relative;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  #title{
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  #tabs{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#lit{
+    background-color: rgb(5, 8, 8);
+    color: aliceblue;
+    
+    
+}
+table{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px;
+}
+
+th{
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(235, 150, 133);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    text-align: left;
+    font-family: Tahoma, sans-serif;
+    font-size:90%;
+    font-weight: bold;
+}
+
+.td1{
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+}

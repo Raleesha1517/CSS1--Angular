@@ -1,0 +1,101 @@
+
+<!-- <div class="container-fluid">
+  <div *ngFor="let item of data">
+<div class="card">
+    <img src="{{item.image}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{item.name}}</h5>
+      <p class="card-text">{{item.batnote}}</p>
+      <a href="#" class="btn btn-primary">{{item.sinhala}}</a>
+    </div>
+  </div>
+</div>
+</div>  -->
+
+
+
+<!-- <ul>
+  <li *ngFor="let item of data">
+      <div class="full">
+          <img src="{{item.image}}">
+          <div class="name">
+                  {{item.name}}
+          </div>
+          <div class="price">
+                  <span>
+                    {{item.batnote}}
+                  </span>
+          </div>
+          <a class="tds" href="{{item.sinhala}}"><i class="fa-solid fa-file-pdf"></i></a>  
+          <a class="tds" href="{{item.sinhala}}"><i class="fa-solid fa-file-audio"></i></a>
+          <a class="tds" href="{{item.sinhala}}"><i class="fa-sharp fa-solid fa-file-video"></i></a>  
+          </div>   
+  </li>
+</ul> -->
+
+<div class="container-fluid" id="links">
+    <h4 id="title">Click Here these Buttons to Download all the lectures/recordings as a Zip File</h4>
+  <button type="button" class="btn btn-dark" id="zip"><a href="https://drive.google.com/uc?export=download&id=1oVEuP1rGiVIhrTJL53TK1BZViVMKUG8c" class="text-decoration-none text-light">Lecture Notes</a> </button>
+  &nbsp;<button type="button" class="btn btn-dark" id="zip"><a href="https://drive.google.com/file/d/1vWk5RR4sREJWDUKx4GOy-Q4LEqpt7P7v/view?usp=drive_link" class="text-decoration-none text-light">Lecture Recordings</a> </button>
+  &nbsp;<button type="button" class="btn btn-success"id="zip" (click)="DownloadPDF()">Download the Lecture Topics As PDF</button>
+  
+
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item" id="lst"><a routerLink="/">Home</a></li>
+      <li class="breadcrumb-item" id="lst"><a routerLink="/css2">CSS 2</a></li>
+      <li class="breadcrumb-item" aria-current="page" id="lst"><a routerLink="/neuro">Neurology</a></li>
+      <li id= "list" class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Other Modules
+        </a>
+        <ul class="dropdown-menu">          
+            <li><a class="dropdown-item" routerLink="/neuro" >Neurology</a></li>
+            <li><a class="dropdown-item" routerLink="/ophthalmology" >Ophthalmology</a></li>
+            <li><a class="dropdown-item" routerLink="/rehab" >MSK & Rehab</a></li>
+            <li><a class="dropdown-item" routerLink="/mentalhealth" >Mental Health</a></li>
+            <li><a class="dropdown-item" routerLink="/" >Medicolegal 2</a></li>
+            <li><a class="dropdown-item" routerLink="/repro" >Reproductive</a></li>
+            <li><a class="dropdown-item" routerLink="/growth" >Growth and Development 2</a></li>
+            <li><a class="dropdown-item" routerLink="/nutrition" >Nutrition</a></li>
+            <li><a class="dropdown-item" routerLink="/geriactrics" >Geriactrics</a></li>
+            <li><a class="dropdown-item" routerLink="/palliative" >Palliative care</a></li>
+            <li><a class="dropdown-item" routerLink="/family" >Family Medicine</a></li> 
+      </ul>
+      </li>
+  
+    </ol>
+  </nav>
+  
+  <ul class="nav justify-content-center" id="tabs">
+    <li class="nav-item " id="lit">
+      <a class="nav-link active text-light" aria-current="page" routerLink="/neuro">LECTURES</a>
+    </li>&nbsp;
+    <li class="nav-item" id="lit2">
+      <a class="nav-link text-dark" routerLink="/neurobats">BATS(2017)</a>
+    </li>
+  </ul>
+  
+  <app-search (searchTextChanged)="OnSeachTextEntered($event)"></app-search>
+  
+  
+  
+  <div class="container">
+    <div class="row">
+      <div class="card" *ngFor="let item of data">
+        <div  *ngIf="searchText === '' || item.name.toLowerCase().includes(searchText) "  >
+         <img class="image" src="{{item.image}}">
+         <h4 hidden>{{item.name}}</h4>
+         <p><a class="tds" href="{{item.note}}"><i class="fa-solid fa-file-pdf fa-2xl" style="color: #8c182f;" ></i></a>  
+         <a  href="{{item.audio}}"><i class="fa-sharp fa-solid fa-file-audio fa-2xl" style="color: #043c20;"></i></a>
+         <a  href="{{item.video}}" target="_blank"><i class="fa-sharp fa-solid fa-file-video fa-2xl" style="color: #07466b;"></i></a> 
+         <a  href="{{item.moodle}}" target="_blank"><img class="image2" src="assets/moodle3.png"></a> </p>
+         
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  
+  
+  

@@ -1,0 +1,118 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+  <div class="container-fluid">
+
+    <div class="side-nav-button p-2 me-3 text-light d-none d-md-block" (click)="sideNavToggle()">
+      <i class="fa-solid fa-bars "></i>
+    </div>
+      <a class="navbar-brand" href="#"><img src="assets/AC22018.png" style="width: 120px; height: 40px;"></a>
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i> 
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav">
+          <li class="nav-item" id="nav">
+            <a class="nav-link" aria-current="page" routerLink="/" routerLinkActive="active"><i class="fa fa-home fa-sm"
+                aria-hidden="true"></i>Home</a>
+          </li>
+          
+        <li class="nav-item dropdown bg-dark">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa fa-stethoscope" aria-hidden="true"></i>
+          CSS 1
+          </a>
+          <ul class="dropdown-menu">
+
+
+            <li><a class="dropdown-item" routerLink="modules" routerLinkActive="active">CSS-1</a></li>
+            <li><a class="dropdown-item" routerLink="batnotes" routerLinkActive="active">BAT-Notes CSS-1</a></li>
+            <li><a class="dropdown-item" routerLink="videos" routerLinkActive="active">BAT-Videos CSS-1</a></li>
+            <li><a class="dropdown-item" routerLink="pastpapers" routerLinkActive="active">Past-Papers CSS-1</a></li><li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1lFT7cDaXbvTuPm10SI90QVLLmA7tR36B?usp=share_link">Praveen sir's Bats for CSS1</a></li>
+            <li><a class="dropdown-item" routerLink="praveen" routerLinkActive="active">Praveen sir's Bats for Clinicals</a></li>
+            <li><a class="dropdown-item" routerLink="mcq" routerLinkActive="active">MCQ Discussions CSS-1</a></li>
+
+      </ul>
+        </li>
+          <li class="nav-item" id="nav">
+            <a class="nav-link" aria-current="page" href="https://ac-css2.netlify.app/" routerLinkActive="active"><i class="fa fa-user-md fa-sm"
+                aria-hidden="true"></i>CSS 2</a>
+          </li>
+          <li class="nav-item" id="nav">
+            <a class="nav-link" aria-current="page" href="https://ac-css2.netlify.app/hspshome" routerLinkActive="active"><i
+                class="fa fa-university fa-sm" aria-hidden="true"></i>HSPS</a>
+          </li>
+          <li class="nav-item" id="nav">
+            <a class="nav-link" aria-current="page" href="https://ac-css2.netlify.app/commedhome" routerLinkActive="active"><i class="fa fa-leaf fa-sm"
+                aria-hidden="true"></i>COM-MED</a>
+          </li>
+          <li class="nav-item dropdown bg-dark">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-pen" aria-hidden="true"></i>
+            Others
+            </a>
+            <ul class="dropdown-menu">
+              
+              <li><a class="dropdown-item" routerLink="clinical" routerLinkActive="active">Clinicals</a></li>
+              <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1_dmKSfuzL1gf5zS2WYe7vYCAtqPawPi3?usp=sharing">E-Books</a></li>
+              <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1-kHE9NSVKy527Fxj_YvLcktR5Th9vaEz">MCQ-Reviews</a></li>
+              <li><a class="dropdown-item" routerLink="acad" routerLinkActive="active">Academic Drive</a></li>
+              <li><a class="dropdown-item" routerLink="ospehome" routerLinkActive="active">OSPE SE</a></li>
+              <li><a class="dropdown-item" routerLink="fap" routerLinkActive="active">FAP</a></li>
+              <li><a class="dropdown-item" routerLink="homemedico" routerLinkActive="active">Medicolegal</a></li>
+              <li><a class="dropdown-item" href="https://ascs-2018.netlify.app/" routerLinkActive="active">AsCS Blog</a></li>
+  
+        </ul>
+          </li>
+          <li class="nav-item" id="nav">
+            <a class="nav-link" aria-current="page" href="https://drive.google.com/drive/folders/1-JDIgxXaqVTkqsMRdrIfkN41uiNDd7Uw" routerLinkActive="active"><i class="fa fa-google fa-sm"
+                aria-hidden="true"></i>Academic-Drive</a>
+          </li>
+        </ul>
+      </div>
+
+     
+    </div>
+  </nav>
+
+
+
+<!-- 
+<nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(to bottom, #10588c, #2a9df4); box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="assets/AC22018.png"></a>
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-outdent"></i> 
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item" id="nav">
+            <a class="nav-link" aria-current="page" routerLink="/" routerLinkActive="active"><i class="fa fa-home"
+                aria-hidden="true"></i>Home</a>
+          </li>
+          <li class="nav-item" id="nav">
+            <a class="nav-link" aria-current="page" routerLink="css2home" routerLinkActive="active"><i class="fa fa-user-md"
+                aria-hidden="true"></i>CSS 2</a>
+          </li>
+          <li class="nav-item" id="nav">
+            <a class="nav-link" aria-current="page" routerLink="hspshome" routerLinkActive="active"><i
+                class="fa fa-university" aria-hidden="true"></i>HSPS</a>
+          </li>
+          <li class="nav-item" id="nav">
+            <a class="nav-link" aria-current="page" routerLink="commedhome" routerLinkActive="active"><i class="fa fa-leaf"
+                aria-hidden="true"></i>COM-MED</a>
+          </li>
+          <li class="nav-item" id="nav">
+            <a class="nav-link" aria-current="page" href="https://drive.google.com/drive/folders/1-JDIgxXaqVTkqsMRdrIfkN41uiNDd7Uw" routerLinkActive="active"><i class="fa fa-google"
+                aria-hidden="true"></i>Academic-Drive</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <hr style="margin-top: 0; border-width: 0; border-top: 1px solid rgba(255, 255, 255, 0.2); margin-bottom: 0;"> -->

@@ -1,0 +1,131 @@
+h2{
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    
+}
+
+p{
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+}
+imge{
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+h3{
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+}
+
+.background{
+    background-color: black;
+    background-position: 0%;
+    background-image: none;
+    
+    
+}
+
+.carouselbtn{
+    color: black;
+}
+
+.jpg{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: auto;
+    width: 425px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Countdown Container */
+/* Countdown Container */
+.countdown {
+  margin: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 18px; /* Reduce the base font size */
+  width: 100%; /* Ensure full width */
+}
+
+/* Countdown Item (e.g., Days, Hours, Minutes, Seconds) */
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5px; /* Reduce margin for tighter spacing */
+}
+
+.countdown-number {
+  font-size: 20px; /* Adjust the font size for numbers */
+  font-weight: bold;
+  color: #ffffff; /* Text color for numbers */
+}
+
+.countdown-label {
+  font-size: 14px; /* Adjust the font size for labels */
+  padding-top: 5px; /* Reduce padding for tighter spacing */
+  color: #777; /* Text color for labels */
+}
+
+.ctd {
+  background-color: #333; /* Background color for the .ctd container */
+  padding: 10px; /* Reduce padding for tighter spacing */
+  border-radius: 0; /* Rounded corners for a card-like appearance */
+  animation: fadeIn 1s ease-in-out; /* Apply a fade-in animation */
+
+  /* Additional styles for better visibility */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*box-shadow: 0 0 10px rgba(235, 233, 233, 0.5); /* Add a subtle shadow */
+}
+
+/* Custom Fade-In Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+  .exam {
+    font-size: 12px; /* Font size */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Text color */
+    text-align: center; /* Center-align text */
+    background-color: #f0f0f0; /* Background color */
+    padding: 10px; /* Padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    width: 150px; /* Set a fixed width */
+    margin-right: 90%;
+    margin: 0 0; /* Center horizontally */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+    animation: fadeIn 1s ease-in-out; /* Apply a fade-in animation */
+  }
+
+  

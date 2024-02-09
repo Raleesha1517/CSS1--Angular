@@ -1,0 +1,201 @@
+<div class="container-fluid" id="links">
+    <h4 id="title" class="animated-title">Click Here these Buttons to Download all the lectures/recordings as a Zip File</h4>
+  <button type="button" class="btn btn-dark" id="zip"><a href="" class="text-decoration-none text-light">Lecture Notes</a> </button>
+  &nbsp;<button type="button" class="btn btn-dark" id="zip"><a href="" class="text-decoration-none text-light">Lecture Recordings</a> </button>
+  &nbsp;<button type="button" class="btn btn-success"id="zip" (click)="DownloadPDF()">Download the Lecture Topics As PDF</button>
+  
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item text-decoration-none" id="lst"><a routerLink="/">Home</a></li>
+        <li class="breadcrumb-item" id="lst"><a routerLink="/css2">CSS 2</a></li>
+        <li class="breadcrumb-item" aria-current="page" id="lst"><a routerLink="/growth">GND</a></li>
+        <li id= "list" class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Other Modules
+          </a>
+          <ul class="dropdown-menu">          
+            <li><a class="dropdown-item" routerLink="/neuro" >Neurology</a></li>
+            <li><a class="dropdown-item" routerLink="/ophthalmology" >Ophthalmology</a></li>
+            <li><a class="dropdown-item" routerLink="/rehab" >MSK & Rehab</a></li>
+            <li><a class="dropdown-item" routerLink="/mentalhealth" >Mental Health</a></li>
+            <li><a class="dropdown-item" routerLink="/" >Medicolegal 2</a></li>
+            <li><a class="dropdown-item" routerLink="/repro" >Reproductive</a></li>
+            <li><a class="dropdown-item" routerLink="/growth" >Growth and Development 2</a></li>
+            <li><a class="dropdown-item" routerLink="/nutrition" >Nutrition</a></li>
+            <li><a class="dropdown-item" routerLink="/geriactrics" >Geriactrics</a></li>
+            <li><a class="dropdown-item" routerLink="/palliative" >Palliative care</a></li>
+            <li><a class="dropdown-item" routerLink="/family" >Family Medicine</a></li> 
+        </ul>
+        </li>
+    
+      </ol>
+    </nav>
+  
+    <ul class="nav justify-content-center" id="tabs">
+      <li class="nav-item ">
+        <a class="nav-link active text-dark" aria-current="page" routerLink="/growth">LECTURES</a>
+      </li>
+      <li class="nav-item"  id="lit">
+        <a class="nav-link text-light" routerLink="/growthold">AScS GND</a>
+      </li>
+    </ul>
+
+    <table class="table"  id="test">
+        <thead>
+          <tr>
+            <th scope="col">Number</th>
+            <th scope="col">Name</th>
+            <th scope="col">PDF</th>
+            <th scope="col">Video</th>
+           
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="fade-in" >
+            <th scope="row">0</th>
+            <td>GD Handbook</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1iPd6Ug2fJ2DrBehezns98JVVKU5qb2yR/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td> 
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">0</th>
+            <td>Student Workbook</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1HqECJcgS3GUbdFHr3G0R5I6ehuwI-uKc/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>    
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">1.1</th>
+            <td>How breast feeding works</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1Te2u76nq52XJ6oREvm6JId1wBaNOhb9n/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">1.2</th>
+            <td>Breast Condition</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1mf3Ym-o2v60zG8a-736e0kicApJUKc8d/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">1.3</th>
+            <td>Baby Friendly Hospital Initiative</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1RCrZxroF98uZwxu9O8Ddy_D1DXLA_Oz4/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">1.4</th>
+            <td>Breastfeeding Code</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1mOiG7emfDUMPMyOUfSur6PXyFYuXQqKl/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">1.5</th>
+            <td>Nutrition of Small Baby</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1CUcBS65vIOYuJRaiM9OkHFXtTAO1OXTY/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">1.6</th>
+            <td>Early infancy beastfeeding</td><td>Nill</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1S9sQjxFyKcKOq2TPgmn6mXPRozeCqP1f/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">1.7</th>
+            <td>Late infancy beastfeeding</td><td>Nill</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1dH64eH0nTmjAGNVv1mKBpIIAbiPYx4bF/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">1.8</th>
+            <td>Resolving problems of Breastfeeding</td><td>Nill</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1Ultg4vExUumvy9TqRi4CzcUr8KnP1rRy/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">2</th>
+            <td>Normal Growth</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1UY06A2hheTH0YXqj2P4RBoYXGbNLpwlf/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1bV1J1t-JLdmkycBppH9Qg2iHroj-AIjG/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+
+          <tr class="fade-in" >
+            <th scope="row">3</th>
+            <td>Normal Development</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1rx0sYuWpv1iIxxyFddORvAwiUCv6oMh2/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1smX0xitz-Gt3TCoyoEgDbut_9SWCrwHC/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">4</th>
+            <td>Asseement of growth</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1YIuRZu4uwjG6qvkqUeicAjY62jYBo6KY/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1mdRCPI1YJ9IEi6SRC1wR1mJLAVl0PlHP/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">4</th>
+            <td>Asseement of growth vedio part 2</td><td>Nill</td>
+             <td class="td1"><a href="https://drive.google.com/file/d/1a-nqv9HEN7MBFFh1E26jPNlWHIuF1DWK/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">5</th>
+            <td>CHDR</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1Zntm68aoh4nuLssde4ACUMWpXSZFXTRA/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">6</th>
+            <td>Normal Development</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1MCZrLLDq8zweiYWzKQNvZNIymLg0Ev8j/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1_p6fFR0hLkvA1MuZzBctArPpIMWjRtd_/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">6.1</th>
+            <td>Development milestones by age</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1dzrcNMNlWWMT2-EyCUst0RkP9W9Hy4wf/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">6.2</th>
+            <td>Development milestones by domain</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1ZYUhdgIY6-946WReKd7I4nPZLFrWVpop/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">7</th>
+            <td>Asseement of development</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1VPcN-I758qhL9u4qa68X2m_gmyRf3WVW/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">8</th>
+            <td>Development Pharmacology</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1frNm3Cbw7ENqd5UHcgVqQ-heO8fKuZww/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1aXnFZzWxquZuovNMYLoj-L9siGxqoxIo/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+          <tr class="fade-in" >
+            <th scope="row">9</th>
+            <td>Parenting</td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1fA9kguBNf7YMKap8IuBYnIiHKrVqJAkf/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+            <td class="td1"><a href="https://drive.google.com/file/d/1vcOZkX4dHny5mfmlP9X_LO11vAhM_8K0/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>     
+          </tr>
+
+
+
+        </tbody>
+    </table>

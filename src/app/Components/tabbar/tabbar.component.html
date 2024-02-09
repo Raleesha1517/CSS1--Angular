@@ -1,0 +1,55 @@
+<div class="side-nav-content ">
+
+  <ul class="nav-list bg-dark" [ngClass]="{'nav-list-open': sideNavStatus}">
+    <li class="nav-list-item " *ngFor="let item of list">
+      <a routerLink="{{item.link}}"><div class="icon-wrapper">
+        <img src="{{item.icon}}" alt="Icon">
+      </div></a>
+
+      <span class="">
+        <a routerLink="{{item.link}}">{{item.name}}</a>
+      </span>
+    </li>
+
+  
+  </ul>
+</div>
+
+
+
+
+<!-- 
+<hr style="border: none; height: 2px; background-color: rgb(238, 255, 7); margin: 0;">
+<ul class="nav justify-content-center" id="custom-navbar">
+    <li class="nav-item">
+      <a class="nav-link  text-light" aria-current="page" routerLink="/neuro">Neurology</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link  text-light" routerLink="/ophthalmology">Opthalmology</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link  text-light" routerLink="/rehab">MSK</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link  text-light" routerLink="/mentalhealth" >Mental-Health</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link  text-light" routerLink="/repro">Reproductive</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  text-light" routerLink="/growth">GND</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  text-light" routerLink="/nutrition">Nutrition</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  text-light" routerLink="/geriactrics">Geriactrics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  text-light" routerLink="/palliative">Palliative Care</a>
+      </li>
+  </ul>
+
+  
+
+<hr style="border: none; height: 2px; background-color: #ffc107; margin: 0;"> -->

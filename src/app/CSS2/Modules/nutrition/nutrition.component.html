@@ -1,0 +1,165 @@
+<div class="container-fluid" id="links">
+    <h4 id="title" class="animated-title">Click Here these Buttons to Download all the lectures/recordings as a Zip File</h4>
+  <button type="button" class="btn btn-dark" id="zip"><a href="" class="text-decoration-none text-light">Lecture Notes</a> </button>
+  &nbsp;<button type="button" class="btn btn-dark" id="zip"><a href="" class="text-decoration-none text-light">Lecture Recordings</a> </button>
+  &nbsp;<button type="button" class="btn btn-dark" id="zip"><a href="  https://docs.google.com/document/d/1RJsdzV3RiB15F0rygHZr8_pJ5CsmRKRY/edit?usp=drive_link" class="text-decoration-none text-light">NGD 2017 Paper</a> </button>
+  &nbsp;<button type="button" class="btn btn-success"id="zip" (click)="DownloadPDF()">Download the Lecture Topics As PDF</button>
+  
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item text-decoration-none" id="lst"><a routerLink="/">Home</a></li>
+        <li class="breadcrumb-item" id="lst"><a routerLink="/css2">CSS 2</a></li>
+        <li class="breadcrumb-item" aria-current="page" id="lst"><a routerLink="/nutrtion">Nutrition</a></li>
+        <li id= "list" class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Other Modules
+          </a>
+          <ul class="dropdown-menu">          
+            <li><a class="dropdown-item" routerLink="/neuro" >Neurology</a></li>
+            <li><a class="dropdown-item" routerLink="/ophthalmology" >Ophthalmology</a></li>
+            <li><a class="dropdown-item" routerLink="/rehab" >MSK & Rehab</a></li>
+            <li><a class="dropdown-item" routerLink="/mentalhealth" >Mental Health</a></li>
+            <li><a class="dropdown-item" routerLink="/" >Medicolegal 2</a></li>
+            <li><a class="dropdown-item" routerLink="/repro" >Reproductive</a></li>
+            <li><a class="dropdown-item" routerLink="/growth" >Growth and Development 2</a></li>
+            <li><a class="dropdown-item" routerLink="/nutrition" >Nutrition</a></li>
+            <li><a class="dropdown-item" routerLink="/geriactrics" >Geriactrics</a></li>
+            <li><a class="dropdown-item" routerLink="/palliative" >Palliative care</a></li>
+            <li><a class="dropdown-item" routerLink="/family" >Family Medicine</a></li> 
+        </ul>
+        </li>
+    
+      </ol>
+    </nav>
+  
+    <ul class="nav justify-content-center" id="tabs">
+      <li class="nav-item " id="lit">
+        <a class="nav-link active text-light" aria-current="page" routerLink="/nutrition">LECTURES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" routerLink="/nutritionold">AScS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" routerLink="/nutritionbats">BATS(2017)</a>
+      </li>
+    </ul>
+
+    <table class="table" id="test">
+      <thead>
+        <tr>
+          <th scope="col">Number</th>
+          <th scope="col">Name</th>
+          <th scope="col">PDF</th>
+          <th scope="col">Audio</th>
+          <th scope="col">Video(if have)</th>
+         
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="fade-in" >
+          <th scope="row">1</th>
+          <td>Paediactric Undernutrition</td>
+          <td class="td1"><a href=""><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>      
+        </tr>
+
+        <tr class="fade-in" >
+          <th scope="row">2</th>
+          <td>Paediactric Obesity</td>
+          <td class="td1"><a href=""><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>      
+        </tr>
+
+        <tr class="fade-in" >
+          <th scope="row">2.1</th>
+          <td>Obesity</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1jNuIh_xPN4o5_iueDtWIqDiU8s7CQf75/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>      
+        </tr>
+
+        <tr class="fade-in" >
+          <th scope="row">3</th>
+          <td>Nutrtion in DM</td>
+          <td class="td1"><a href=""><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>      
+        </tr>
+
+        <tr class="fade-in" >
+          <th scope="row">4</th>
+          <td>Nutrition in overweight/anorexia</td>
+          <td class="td1"><a href=""><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>      
+        </tr>
+
+        <tr class="fade-in" >
+          <th scope="row">5</th>
+          <td>Nutrtion in DL and CV diseases</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1jS-Mp8qTLl0lJDd4wMvv9v0j0oQHVKOD/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>      
+        </tr>
+
+        <tr class="fade-in" >
+          <th scope="row">6</th>
+          <td>Nutrtion in renal/hepatic</td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1jV4ea4dCdrTeeACHiJ2CX8tcJZzVPMP4/edit?usp=drive_link&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>      
+        </tr>
+
+        <tr class="fade-in" >
+          <th scope="row">7</th>
+          <td>Nutrtion anemia</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1jZAYOFk6StIsayyp-9VgXcnznf5wY9Zd/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>      
+        </tr>
+
+        <tr class="fade-in" >
+          <th scope="row">8</th>
+          <td>Nutrtion in cancer</td>
+          <td class="td1"><a href=""><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>      
+        </tr>
+
+        <tr class="fade-in" >
+          <th scope="row">9</th>
+          <td>Nutrtional care in ill patients</td>
+          <td class="td1"><a href=""><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>      
+        </tr>
+
+        <tr class="fade-in" >
+          <th scope="row">10</th>
+          <td>Evidence based Nutrition</td>
+          <td class="td1"><a href=""><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>      
+        </tr>
+
+        <tr class="fade-in" >
+          <th scope="row">11</th>
+          <td>Food labelling and food act</td>
+          <td class="td1"><a href=""><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>      
+        </tr>
+
+        <tr class="fade-in" >
+          <th scope="row">12</th>
+          <td>National programmes in Sri lanka</td>
+          <td class="td1"><a href=""><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>      
+        </tr>
+
+  
+      </tbody>
+    </table>

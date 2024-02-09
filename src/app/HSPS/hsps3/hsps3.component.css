@@ -1,0 +1,122 @@
+#list{
+    margin-left: 70%;
+    margin-right: auto;
+    position: absolute;
+    margin-top: 0;
+    color: black;
+}
+
+#list :hover{
+    color: rgb(4, 69, 33);
+}
+
+.dropdown-item{
+    margin: 10px;
+    font-family: sans-serif;
+    text-decoration: dashed;
+}
+
+
+.breadcrumb{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(231, 219, 219);
+    font-weight: bold;
+    position: relative;
+}
+
+.breadcrumb-item :hover{
+    color: rgb(224, 23, 23);
+}
+
+.breadcrumb-item{
+    text-decoration: aqua;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card{
+    margin: 10px;
+    margin-right: auto;
+    padding-left: 10px;
+    margin-left: auto;
+    height: fit-content;
+    background-color: rgb(139, 236, 243);
+}
+
+.container{
+    margin-left: 0px;
+    align-items: center;
+}
+
+i{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.image2{
+    height: 45px;
+    width: 40px;
+    margin-left: 7px;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: rgb(80, 126, 226);
+    padding: 3%;
+    color: aliceblue;
+}
+
+.paragraph{
+    padding: 10px;
+    font-weight: bolder;
+}
+
+h4{
+    padding: 2px;
+    font-weight: bolder;
+}
+
+#tabs{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: brown;
+}
+
+#lit{
+    background-color: rgb(5, 8, 8);
+    color: aliceblue;
+    
+}
+
+#item1{
+    color: aliceblue;
+}
+#links{
+    background-color: rgb(249, 249, 249);
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  #zip{
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  #title{
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+
+  .pdf{
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+  }

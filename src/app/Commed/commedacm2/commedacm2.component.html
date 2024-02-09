@@ -1,0 +1,58 @@
+<ul class="nav  justify-content-center" id="tabs">
+    <li class="nav-item ">
+      <a class="nav-link active text-light"routerLink="/commedstatistics" >STATISTICS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light" routerLink="/commedresearch">RESEARCH</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-light" routerLink="/commedfap">FAP</a>
+    </li>
+    <li class="nav-item" >
+        <a class="nav-link text-light" routerLink="/commedhome">HOME</a>
+      </li>
+      <li class="nav-item"  id="lit">
+        <a class="nav-link text-light" routerLink="/commedacm">ACM</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" routerLink="/commedpp">PAST-PAPERS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" routerLink="/commedbats">BATS</a>
+      </li>
+  </ul>
+
+  <div class="pdf">
+<button type="button" class="btn btn-success" (click)="DownloadPDF()">Download the Lecture Topics As PDF</button>
+</div>
+
+<ul class="nav justify-content-center" id="tabs">
+    <li class="nav-item "  id="lit" >
+      <a class="nav-link active text-light" aria-current="page" routerLink="/commedacm2">ACM - 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light" routerLink="/commedacm">ACM - 2</a>
+    </li>
+  </ul>
+
+<table class="table table-hover table-bordered border-dark" id="test">
+    <thead>
+      <tr>
+        <th scope="col">Number</th>
+        <th scope="col">Name</th>
+        <th scope="col">PDF</th>
+       
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr class="fade-in" *ngFor="let item of items">
+        <th scope="row">{{ item.number }}</th>
+        <td>{{ item.description }}</td>
+        <td class="td1"><a href="{{ item.link }}"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+      </tr>
+     
+
+
+    </tbody>
+</table>

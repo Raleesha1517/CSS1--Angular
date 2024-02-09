@@ -1,0 +1,33 @@
+<div class="pdf">
+<button type="button" class="btn btn-success"id="zip" (click)="DownloadPDF()">Download the BAT TimeTable As PDF</button>
+</div>
+
+
+
+<table class="table table-hover table-bordered border-dark" id="test" >
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Date</th>
+        <th>Day</th>
+        <th>BAT</th>
+        <th>Person</th>
+      </tr>
+    </thead>
+    <tbody>
+        <ng-container *ngFor="let lecture of lectures; let i = index">
+            <tr (mouseover)="showDaysLeft(lecture.date, i)" (mouseout)="hideDaysLeft(i)">
+              <td>{{ lecture.time }}</td>
+              <td>{{ lecture.date }}</td>
+              <td>{{ getDayOfWeek(lecture.date) }}</td>
+              <td>{{ lecture.lecture }}</td>
+              <td>{{ lecture.Person }}</td>
+            </tr>
+            <tr *ngIf="daysLeftIndex === i" [style.background-color]="'red'" [style.color]="'white'">
+              <td colspan="4">{{ daysLeft }} days left</td>
+            </tr>
+          </ng-container>
+    </tbody>
+  </table>
+
+  

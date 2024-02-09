@@ -1,0 +1,586 @@
+<div class="header">
+<h4 class="head">BAT Notes Are Now Available by 2016 Batch<i class="fa fa-arrow-circle-down" aria-hidden="true"></i></h4>
+</div>
+
+<div class="container-fluid" id="links">
+    <h4 id="title" class="animated-title">Click Here these Buttons to Download all the lectures/recordings as a Zip File</h4>
+  <button type="button" class="btn btn-dark" id="zip"><a (click)="upload()" class="text-decoration-none text-light">Lecture Notes</a> </button>
+  &nbsp;<button type="button" class="btn btn-dark" id="zip"><a href="https://drive.google.com/file/d/1BljEL8QGTPfyvi_Qr4uOyPk2SRu-3hmE/view?usp=drive_link" class="text-decoration-none text-light">Lecture Recordings</a> </button>
+  &nbsp;<button type="button" class="btn btn-dark" id="zip"><a href="https://drive.google.com/file/d/1-iD62CJ7R7BUXSaT5GU1DYo5z5rcF_uG/view?usp=drive_link" class="text-decoration-none text-light">BAT Part 1</a> </button>
+  &nbsp;<button type="button" class="btn btn-dark" id="zip"><a href="https://drive.google.com/file/d/14kgtv_me4ZdY_K8bwDmAGLC7sFwdfUMn/view?usp=drive_link" class="text-decoration-none text-light">BAT Part 2</a> </button>
+  &nbsp;<button type="button" class="btn btn-success"id="zip" (click)="DownloadPDF()">Download the Lecture Topics As PDF</button>
+  
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item text-decoration-none" id="lst"><a routerLink="/">Home</a></li>
+        <li class="breadcrumb-item" id="lst"><a routerLink="/css2">CSS 2</a></li>
+        <li class="breadcrumb-item" aria-current="page" id="lst"><a routerLink="/repro">Reproductive</a></li>
+        <li id= "list" class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Other Modules
+          </a>
+          <ul class="dropdown-menu">          
+            <li><a class="dropdown-item" routerLink="/neuro" >Neurology</a></li>
+            <li><a class="dropdown-item" routerLink="/ophthalmology" >Ophthalmology</a></li>
+            <li><a class="dropdown-item" routerLink="/rehab" >MSK & Rehab</a></li>
+            <li><a class="dropdown-item" routerLink="/mentalhealth" >Mental Health</a></li>
+            <li><a class="dropdown-item" routerLink="/" >Medicolegal 2</a></li>
+            <li><a class="dropdown-item" routerLink="/repro" >Reproductive</a></li>
+            <li><a class="dropdown-item" routerLink="/growth" >Growth and Development 2</a></li>
+            <li><a class="dropdown-item" routerLink="/nutrition" >Nutrition</a></li>
+            <li><a class="dropdown-item" routerLink="/geriactrics" >Geriactrics</a></li>
+            <li><a class="dropdown-item" routerLink="/palliative" >Palliative care</a></li>
+            <li><a class="dropdown-item" routerLink="/family" >Family Medicine</a></li> 
+        </ul>
+        </li>
+    
+      </ol>
+    </nav>
+  
+    <ul class="nav justify-content-center" id="tabs">
+      <li class="nav-item " id="lit">
+        <a class="nav-link active text-light" aria-current="page" routerLink="/repro">LECTURES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" routerLink="/reprobats">BATS(2017)</a>
+      </li>
+    </ul>
+  
+
+  <table class="table" id="test">
+      <thead>
+        <tr>
+          <th scope="col">Number</th>
+          <th scope="col">Name</th>
+          <th scope="col">PDF</th>
+          <th scope="col">Audio</th>
+          <th scope="col">Video</th>
+         
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="fade-in" >
+          <th scope="row">1</th>
+          <td>Introduction and overview of<br> reproductive health</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1TdQ6LqewiUMKxezsNKtZB6ksAfT-2clu/view?usp=drive_link" ><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/19cf8uJghaIDUXp6FvySf68CEjoxC-k6S/view?usp=drivesdk"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/12WSvcZtb_D2LZhy1lsBNqdzGIOfESs1M/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #140296;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in" >
+          <th scope="row">2</th>
+          <td>Anatomy of the female <br>reproductive tract </td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1TfF2dEKpmfV4gzrm5AXWowvtVc2LzQDz/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/19_VU0w6p6Jx9_yDCflRaELnWZI6ff0qt/view?usp=drivesdk"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1-1ySgFpo8jt29RV6AC-nlcU-HuYQOYfF/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">3</th>
+          <td>Functions of feto placental unit</td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1TVjxRn0pdisySnLERxPscwBHAKPMFrpm/edit?usp=drive_link&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1LJOxONMhjbfR7sBA3R_nNZS0tu9vHAVK/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1zDJxknmay9yrH5ZiplGFCrLAUK290Oe1/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">4</th>
+          <td>Prepregnancy counselling & <br>screeening in pregnancy </td>
+          <td class="td1" ><a (click)="Alert()" ><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1MQGB8vgHGjauFYiaoKCG05PyvWuQQ-zk/view?usp=drivesdk"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>       
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">5</th>
+          <td>Antenatal care in <br>Sri Lanka</td>
+          <td class="td1"><a (click)="Alert()" ><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1MTR1tcORsDF-_cREkVBbhbWtqviAz_UV/view?usp=drivesdk"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>       
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">6</th>
+          <td>Normal pregnancy: <br>Anatomy,clinical <br>features & diagnosis</td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1TUm1TRwSXOJzbrbXE11_uMDyhWgUP-QJ/edit?usp=drive_link&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1MUY5z6x0TkCX-KGMySNY_sbkwObsxiqY/view?usp=drivesdk"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1n9GAVlkWx7im2g-g352mFWH1XE7VJcxh/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">7</th>
+          <td>Physiological changes in <br>pregnancy</td>
+          <td class="td1"><a (click)="Alert()" ><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1BJdg3WsVMYd8gtwCYyHmMOfVmYG_ajUr/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/12IPtQhAwmEDW25QXrhMiCf0SqXU_0weL/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">8</th>
+          <td>Intrapartal fetal <br>and maternal surveillance - CTG Course</td>
+          <td class="td1"><a (click)="CTG()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a (click)="CTG()"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">9</th>
+          <td>Normal labour, <br>partogram & abnormal <br>progression of labour</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1TbWqLgbWn8bsOpoocPccD2G2loLQl4N_/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1GyzJYJS7uKzN627hfiMis_uOuHMK1qoo/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1JLslVUuOWT4aGGSsO52V_3LeAn_DR-sE/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">10</th>
+          <td>Physiological <br>basis for third <br>stage management</td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1TTrB38PRVQEdQub9RLH0mH3lZ07acoWF/edit?usp=drive_link&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1BiCPLgjf50NlajSZAUA-ZV7ZjhPSPR4I/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1xJVKf0d-zo6fT1GF_fU81iyOTqHlB92I/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">11</th>
+          <td>PPH and other complications of the third stage of labour </td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1TOeqVfRmqueXjx6vyPMV7FDjD0A4M5iU/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1BqfMOnexqXUFjGx2JQB43kWDzj-QiEf0/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/18uNrvYyHxbgjk5714dvSIxUYHixz9TQT/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">12</th>
+          <td>Fetal and maternal monitoring in labour</td>
+          <td class="td1"><a (click)="online()" ><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/12yejrAs4iQeqyYyFHuI67FB9qtDxDiVM/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">13</th>
+          <td>Antepartum haemorrhage</td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1TbGSWB7i8muO6BapiH6oQpwtUfPe20if/edit?usp=drive_link&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1CKWf7w6lkb2bs-RSDarpX3oeOnnFQWB6/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1FBZ64Yoor5fufZj0WTa3EH53sP93Baoy/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">14</th>
+          <td>Caesarean section</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1TiVmsE7i-2nDF7JWlI9oDg-QbRWY7Lpa/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1Br9cYdRTm4fsFlP8wSQZEptk5jjyVJxE/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">15</th>
+          <td>Blood group iso immunization </td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1TMgRL1Cut7p32_qhFo8j9oU_BZYxhG8J/edit?usp=drive_link&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1DC4FiyEsPjVFMKm9ziRJVYYDjSeyIaJB/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1-j_ddNh7lN7NGyUBA-xpiirxH3P-Jnl8/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">16</th>
+          <td>Assisted vaginal delivery</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1TVvtKU4cIIypeA1aw3L-lceiY7j1QXvI/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">17</th>
+          <td>Postpartum care</td>
+          <td class="td1"><a (click)="online()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1DqY5N6MPNeDX81JP-qc8Rd3rcGe79dFb/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">19</th>
+          <td>Anemia in pregnancy</td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1Dw3JRa_WlRYz0EWBtZ0DU6MEoOSuJzYd/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">20</th>
+          <td>Pregnancy of unknown location & ectopic pregnancy</td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1TWOnwt3LT1-8Lh-Ht7XjeEsY8WYb4Ly2/edit?usp=drive_link&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1CCVMBXzWS2_AIa6sqR5Pn2aR-2Y6r5Js/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1CcFhO8dw9-JXebkmq1RNhuJzGsd5NP_l/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <!-- <tr class="fade-in">
+          <th scope="row">21</th>
+          <td>Fetal circulation and normal changes at birth(SL)</td>
+          <td class="td1"><a href=""><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr> -->
+  
+        <tr class="fade-in">
+          <th scope="row">22</th>
+          <td>Diabetes in pregnancy</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1TKXD1KeusmHs3bghYK3Qe-4T0QHUl_PA/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1FABPEr4uY8YxrzOVUhyXsZzNrCBNugBt/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1Gspea-BJ9kjT73Lna0AL6eYYcS1zbxaN/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+
+        <tr class="fade-in">
+          <th scope="row">22.1</th>
+          <td>Infants in diabetic mother</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1TKAp2V2Hif9xfIcCZ-qdfNGCkVixxuZM/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1FABPEr4uY8YxrzOVUhyXsZzNrCBNugBt/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">23</th>
+          <td>Hypertension in pregnancy</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1THh-mMaW0jB7F_RZdO1pRacpcHPBpwp1/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1FPHkjRfSk-IZGtdJ4GuLTINziYLjacYS/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/185g3eLVN9m53z9C7sysFgBUSNWV8FBCr/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">24</th>
+          <td>Small for gestattional age</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1hTLS0TmpMwT-FHGCuAuywt1lzpp88UBy/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1FPwu6GIxO1vnp4IbuLvCj71iCPsBmVA2/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1GccKxa4AOMD00KX0ocTf7mluQe8rSyiC/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">25</th>
+          <td>The growth restricted baby</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1TCl3A_yn5jkedbv7bVBMyeHky6Irl25W/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1FRGgLrJNoaKCjCXwCN5iNAQwXPIfThwf/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1cg5d-9rp3tFxWbl_ZM-zkzye-eYi5S5x/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">26</th>
+          <td>Malpresentation and malposition</td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1i8poM-CpatDremZSUQIXwaee6KOozdhk/edit?usp=drive_link&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1H6-PhCTcIhXrTwqnIcIgQp1ir8KA6z4b/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1NlIiyqkGcO_d889gJ2m2wiQ9yQ3S68xX/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">27</th>
+          <td>Multiple pregnancy</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1TAueC0JHd4LFsxzhSHOdZn-xtrC9q62J/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1H3AKo-djdkFCkIcJLpBtZr5ZCOLn7GEX/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1DuAnUtzS54scYwm5OGmit_17cT3-HWRl/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">28</th>
+          <td>Pathophysiological basis of mx of medical disorders in pregnancy</td>
+          <td class="td1"><a (click)="online()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">29</th>
+          <td>Hyperemesis & other minor ailments in pregnancy</td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1TA_T0VsRy88CnYv86SGwbkzIfyMwOVAo/edit?usp=drive_link&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1trxgJvovYkI_jJeFqe6V-51LTTAtbQ-C/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">30</th>
+          <td>Heart diseases complicating pregnancy</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1i9rVmyd3slKKxw38I9N1QqwMpqmKP07L/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1V9FdW3wKN5HZEg0bw77ukCEv9rxqvTXR/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1NwNWcAkM-Z1LC34lGlHj9QEVRNdhVCxw/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">31</th>
+          <td>PROM</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1iAsiv1k56ddpEs48xqM2n3sB8E86fPQn/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1VC5KBzb1IU9DcD97pOaHDMZfUcD8fSoJ/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+
+        <tr class="fade-in">
+          <th scope="row">31.1</th>
+          <td>Preterm labour</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1iB0tTvbLfNOZy4eOODwGFXDEEA-g56fB/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1VC5KBzb1IU9DcD97pOaHDMZfUcD8fSoJ/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">32</th>
+          <td>Recurrent miscarriage</td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1iDl7DH_24fqPbrelaTkyd0THaUygtdDH/edit?usp=drive_link&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1-Q193r8DMoKXJbfYoE-ukcasedro_p4Z/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">33</th>
+          <td>Imaging in pregnancy</td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1iE_LSyrRbIEU0pW7RhRqSpo-JNhyS56v/edit?usp=drive_link&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1AXM2ySMMsO4MrcUrL9IhVduKsXS0BkK5/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/14CY7gk2CsiDZhsPtkRi1HyrTJeVIPI4X/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">34</th>
+          <td>Abnormal uterine bleeding </td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1iEl_TP2bc6GzmkFwPd7SY9ZahVAuqDzv/edit?usp=drive_link&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1_1NvopFtE-mA30IuO2rC7DoYPuE24lZN/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1AnZZMH0dxoUHSQRCehk4zYyxINHXrA4y/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">35</th>
+          <td>Benign uterine neoplasm</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1iIKVWY-ptgrSYxroB3PDlZv_PiC3oT3b/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1zB32Mub2GASim4T6yApqD5DwUf7jqhbL/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">36</th>
+          <td>Adenomyosis and pelvic endometriosis </td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1iK4MiNTutOiYc9cbVmdInnTbSfxZDkpY/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1DoRorBR3dsDYxEiuDoEpieiAm2d5PScv/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1rl1g7EA_JvJ7eJbtHHIo-inQAqd913KF/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">37</th>
+          <td>Primary and secondary amenorrhoea </td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1iLW64VroNZso-OY49bm2vGlULdFR4-qb/edit?usp=drive_link&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1U68PoYMTyxrg12e-sgmlzLqK13tUQvWX/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1C1ThAwZcqqaRRnnpiGjwqUMPJnoobLgO/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">38</th>
+          <td>Urogynaecology</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1iNba9GppEaip9tgPwb4wC_TJ3pftU8lk/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href=""><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1kFOnqeedXblP6SCue9nAyLYFYrdwzUkI/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">39</th>
+          <td>Breast diseases I</td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1jMHpAr7XfsYATG0Glcl39I5Fb_nBFkiT/edit?usp=drive_link&ouid=113217266484128823151&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1ZNMBbC0NRm0Nm4R1Bn4apUIX4Mzlyucm/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1NxaZFRVM5_ICs4soM0cMWg-5sI4lH4AV/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">40</th>
+          <td>Diagnostic techniques in breast diseases</td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1jEpjXUrzv92pZPXWMDXni85nUHEABE4K/edit?usp=drive_link&ouid=113217266484128823151&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/13suxFHkB_OBW0yIeJ2JH4yLN5Tie9pC_/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">41</th>
+          <td>Cervical carcinoma</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1iaQ7H2yoVKy86aa0TRhJKaLzRstkK7xN/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1ZWQseJa63vWcEVNKQInoO1tf-R3ZT7xp/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1tobwDhKgV2x7om80MvY3SZZoKhVSYmBR/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">42</th>
+          <td>Pelvic floor dysfunction </td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1iaUGXdsY1PzLO9ZAe8dBK3Yf7isJNsEn/edit?usp=drive_link&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1VzxRJcDxO5pGRsKV9CBLPzlFueSY0105/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1QO9nMhOE4AzAJoLZJjjLTypzP3Y0Onhr/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">43</th>
+          <td>Breast diseases II</td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1jBb153gFebh9eMJBo3A5RNDeyqKoFMEU/edit?usp=drive_link&ouid=113217266484128823151&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1JMY2PcIfswCPHnnYnOF1PzxRjBmAhtr8/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/11BC395Ltd2vFIXS34izIgX9XbcCYH4Ea/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">44</th>
+          <td>Obstetric Anal Sphincter Injury</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1id0fQiZuETadGgobg09A76bSNlVniqaV/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1sx9R_BXf9kkkNx48dIZpLE6seCcs2mX9/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">45</th>
+          <td>Trophoblastic disease</td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1ihRXkMKxeS5rMQhcBRfrbgp1Cm_daq6l/edit?usp=drive_link&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1ZToI9ezRq_fkS4AyzogguAvEGBNdfyBg/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1--tdiZvIEgPXwg1tGnwinEvNY1CQT5Gy/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">46</th>
+          <td>Clinical aspect of benign & malignant ovarian tumours </td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1ikRW3_lFM4iJAyAeZKOuo0ZhxWYpl7Xw/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1UGuC3JzDWoG68t8RN6UCiYvDPxn4Xxc1/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1u8QM-XbOP7jJzguN64mSmbLaG6W4HkWw/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">47</th>
+          <td>Disorders of ovulation</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1imCZ9Qh5xSkCnuNiMxYnS6GMQ4dPP5I7/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1R-sckYxyZ1qTvdzMWm7bIChs7QLgaxx-/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">48</th>
+          <td>Postmenopausal bleeding/Endometrial carcinoma </td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1ir-SZB9X_cwqNwMpUQ80ye9iD3ZKhcAM/edit?usp=drive_link&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1ayhmIFPGu6Y72AITOTWijet7lqKdCTvV/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">49</th>
+          <td>Newborn assessment and care</td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1b0834e-vxqMmDhYO8PJQVQRZowNwOUHK/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1t4aOv4wGrTvsO5m5fdP1VPrE_GVYvc71/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">50</th>
+          <td>Sexually transmitted infections</td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1E66aSxPkK9SyWZU1BTDkkjGi60N0_oCU/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">51</th>
+          <td>Pelvic inflammatory disease</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1irZWNhp1oc7IDfv5lc7GQvyZQ_WEDxmG/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1Tv71SKmtZ3itm4c2wxVXhrfRXGcog8xN/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">52</th>
+          <td>Birth asphyxia </td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1ix5INVSzsHxXc7zPrjg_Y_yBKVzXfan5/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1USvwGB6U69uQt4IkXhjAFwT6WjIiWjFv/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1-Q2wSAduN_NSQnA4DG5c1-uSDzP8JqxK/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">53</th>
+          <td>Principles of laparoscopy in Gynaecology</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1j1uvefcviggqOIHjSUl93m-DO9nlKmK6/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1LBLUMVaEipA_5PUUUBOCWX-9GE5y6O5C/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">54</th>
+          <td>Menopause and MHT </td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1j2Nc6dpFbfNWyy-PItfl9CA57Uyeg9ZA/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1DFJjW6w1Be2s76d77INpmUO156XbLpNM/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1LuSQwu6wBNEY_s7Alcl1_tWfyWYWVDzq/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">55</th>
+          <td>National family health programme </td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1eqOoo9iFrPzos51zKoaLTJhH3AoRuvsN/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr> 
+  
+        <tr class="fade-in">
+          <th scope="row">56</th>
+          <td>Family planning</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1j2ey0AEfXN1NsMAiOJXidgLDEesGkG90/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1UlPuCjEA4ANyxLWuw_gU4DmSYTwUFrnJ/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/10UWKyyJ5dEQdOY4b6sDsevEfOd8YgzqN/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">57</th>
+          <td>Life beyond menopause </td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">58</th>
+          <td>Infections in newborn</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1j3E5jK2jktASoidGsJdHEiNllzy5OHBv/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/16f0KGf-64C-CtkkhJ8mp78adXNoTbpDK/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">59</th>
+          <td>Subfertility</td>
+          <td class="td1"><a href="https://docs.google.com/presentation/d/1jMXlh7LzPVqxVYGWtSPzjJcdnOBKiNXz/edit?usp=drivesdk&ouid=107007707675850420095&rtpof=true&sd=true"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/15lAsLAIatZUKP0pyzE4r4olCx5Cbt_Ub/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1BPiZonN244hb-TPVu1Iegmnf67046Urx/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">60</th>
+          <td>Seizures in newborn</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1j3V6OEki1cMnaBKR7_jjZjRk_EQENjCK/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1A77d6TjQB1OtEhoQedlPagk8hVuHRuA6/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1wUNnT-Qht2tc9saWwAL5_j8QdsP9mn_6/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">61</th>
+          <td>Respiratory distress in newborn</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1j48qtMXzdYyYP9EsGk8IeYcqiB84EMgT/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1wRi1ypVj_w4r6lSz6WyTRdoI04hwe7sx/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1UL8FtqIsZ_QXypwJkEP70YzyRtCFcqLV/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">62</th>
+          <td>Fetal infections</td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1j7BAuqfLRYVHMDjxd241E8hkpqSXU7vu/view?usp=drive_link"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/15fg3C3Z3TA5JlIDkfYQFuG2qhCOemst0/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a ><i class="fa-solid fa-video-slash fa-xl" style="color: #4d39e3;"></i></a></td>        
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">63</th>
+          <td>Sexual dysfunction</td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1pMrbhi9jaOxvdum-fJ_OIJ1L9EG6L9qy/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+  
+        <tr class="fade-in">
+          <th scope="row">64</th>
+          <td>Jaundice in newborn</td>
+          <td class="td1"><a (click)="Alert()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1WF6p8B8oHhIIAd12D0qsVVfahFI0U4bT/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #043c20;"></i></a></td>
+          <td class="td1"><a href="https://drive.google.com/file/d/1JVbjxmc6sftjyN5MApNlvy_Nk5XPp-Fe/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-video fa-xl" style="color: #4d39e3;"></i></a></td>      
+        </tr>
+        
+      </tbody>
+    </table>
+
+
+

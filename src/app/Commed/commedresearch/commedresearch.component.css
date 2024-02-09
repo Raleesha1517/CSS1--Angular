@@ -1,0 +1,16 @@
+#tabs{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: brown;
+}
+
+#lit{
+    background-color: rgb(5, 8, 8);
+    color: aliceblue;
+    
+}
+
+#item1{
+    color: aliceblue;
+}

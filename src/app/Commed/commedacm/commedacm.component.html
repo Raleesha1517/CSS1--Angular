@@ -1,0 +1,171 @@
+<ul class="nav  justify-content-center" id="tabs">
+    <li class="nav-item ">
+      <a class="nav-link active text-light"routerLink="/commedstatistics" >STATISTICS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light" routerLink="/commedresearch">RESEARCH</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-light" routerLink="/commedfap">FAP</a>
+    </li>
+    <li class="nav-item" >
+        <a class="nav-link text-light" routerLink="/commedhome">HOME</a>
+      </li>
+      <li class="nav-item"  id="lit">
+        <a class="nav-link text-light" routerLink="/commedacm">ACM</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" routerLink="/commedpp">PAST-PAPERS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" routerLink="/commedbats">BATS</a>
+      </li>
+  </ul>
+
+  <div class="pdf">
+<button type="button" class="btn btn-success" (click)="DownloadPDF()">Download the Lecture Topics As PDF</button>
+</div>
+
+<ul class="nav justify-content-center" id="tabs">
+  <li class="nav-item " >
+    <a class="nav-link active text-light" aria-current="page" routerLink="/commedacm2">ACM - 1</a>
+  </li>
+  <li class="nav-item" id="lit">
+    <a class="nav-link text-light" routerLink="/commedacm">ACM - 2</a>
+  </li>
+</ul>
+
+  <table class="table table-hover table-bordered border-dark" id="test">
+    <thead>
+      <tr>
+        <th scope="col">Number</th>
+        <th scope="col">Name</th>
+        <th scope="col">PDF</th>
+        <th scope="col">Audio 1</th>
+        <th scope="col">Audio 2</th>
+       
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="fade-in" >
+        <th scope="row">ACM-1</th>
+        <td>Disabiltiy and rehabiltiation services in SL; Concept of QOL</td>
+        <td class="td1"><a (click)="Click()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+        <td class="td1"><a href="https://drive.google.com/file/d/1C_4kkntA6rB_fBJlzI1uOMSCKuqovIHO/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td>
+        <td class="td1">Nill</td>         
+      </tr>
+
+      <tr class="fade-in" >
+        <th scope="row">ACM-2</th>
+        <td>Prevention and control of birth defects and community genetics </td>
+        <td class="td1"><a (click)="Click()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+        <td class="td1"><a href="https://drive.google.com/file/d/1cTz_DsgYVbEAJjxZQ1_Ee5D7_cQKN2st/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td> 
+        <td class="td1">Nill</td>  </tr>
+
+      <tr class="fade-in" >
+        <th scope="row">ACM-3</th>
+        <td>PH rewponse to newly emerging diseases</td>
+        <td class="td1"><a (click)="Click()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+        <td class="td1"><a href="https://drive.google.com/file/d/1sTWwdPSSINIhljWxHidNNGQe9V7ZKo-I/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td>
+        <td class="td1"><a href="https://drive.google.com/file/d/1sNKw4fZCKh54hJu2aYEtX0rIR7ydmRsp/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td>         
+      </tr>
+
+      <tr class="fade-in" >
+        <th scope="row">ACM-4</th>
+        <td>Prevention of suicide</td>
+        <td class="td1"><a (click)="Click()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+        <td class="td1">Nill</td> 
+        <td class="td1">Nill</td>        
+      </tr>
+
+      <tr class="fade-in" >
+        <th scope="row">ACM-5</th>
+        <td>Child rights and violation</td>
+        <td class="td1"><a (click)="Click()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+        <td class="td1"><a href="https://drive.google.com/file/d/1zTS1w8Yg4pkCKHs3kntFZ1_eo08ctsQA/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td>
+        <td class="td1"><a href="https://drive.google.com/file/d/1zTU7XmFU1LW0ij3sAOr8_XZodroLKQ5b/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td>         
+      </tr>
+
+      <tr class="fade-in" >
+        <th scope="row">ACM-6</th>
+        <td>Violence (GBV, Intimate partner violence, gender equity)</td>
+        <td class="td1"><a (click)="Click()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+        <td class="td1"><a href="https://drive.google.com/file/d/1qxMA7EaNjSBP-ssysoMaAVupJtFFgejC/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td> 
+        <td class="td1">Nill</td>    
+      </tr>
+
+      <tr class="fade-in" >
+        <th scope="row">ACM-7</th>
+        <td>Dimensions of quality in health care </td>
+        <td class="td1"><a (click)="Click()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+        <td class="td1"><a href="https://drive.google.com/file/d/1Lom8XB5LZCziGNuFuEQyKHEh59WV-BXZ/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td>   
+        <td class="td1"><a href="https://drive.google.com/file/d/1LqW1rkDelMp9BBBi6z7w9Zq-6emfTbHq/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td>      
+      </tr>
+
+      <tr class="fade-in" >
+        <th scope="row">ACM-8</th>
+        <td> Clinical audits and surveys</td>
+        <td class="td1"><a (click)="Click()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+        <td class="td1">Nill</td>
+        <td class="td1">Nill</td>        
+      </tr>
+
+      <tr class="fade-in" >
+        <th scope="row">ACM-9</th>
+        <td> Disease classification and reporting of cause of death</td>
+        <td class="td1"><a (click)="Click()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+        <td class="td1"><a href="https://drive.google.com/file/d/1FgMywJR8VDrYUS7czbWKlMHHJSBac3Ki/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td> 
+        <td class="td1">Nill</td>      
+      </tr>
+
+      <tr class="fade-in" >
+        <th scope="row">ACM-10</th>
+        <td>Perinatal and infant mortality surveillance and review & EMOC</td>
+        <td class="td1"><a (click)="Click()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+        <td class="td1"><a href="https://drive.google.com/file/d/1Lta1r1b0KWH8QLinuBAb2JD4keuYg3Ps/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td> 
+        <td class="td1">Nill</td>      
+      </tr>
+
+      <tr class="fade-in" >
+        <th scope="row">ACM-11</th>
+        <td>Maternal mortality surveillance and review</td>
+        <td class="td1"><a (click)="Click()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+        <td class="td1"><a href="https://drive.google.com/file/d/1LyZAsPfDUOhtOxz2gJhdBB8D7CU7EMgZ/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td> 
+        <td class="td1">Nill</td>      
+      </tr>
+
+      <tr class="fade-in" >
+        <th scope="row">ACM-12</th>
+        <td>National PH policies and regulations</td>
+        <td class="td1"><a (click)="Click()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+        <td class="td1"><a href="https://drive.google.com/file/d/1U8_7C5mFJYS2IsL9QoJOe-SR-bohNFuS/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td> 
+        <td class="td1"><a href="https://drive.google.com/file/d/1UBc5LLcr1G6md_jj_Anv-3xpDBuDEQIG/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td>        
+      </tr>
+
+      <tr class="fade-in" >
+        <th scope="row">ACM-13</th>
+        <td>International Health Regulations and statutory duties</td>
+        <td class="td1"><a (click)="Click()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+        <td class="td1">Nill</td>  
+        <td class="td1">Nill</td>     
+      </tr>
+
+      <tr class="fade-in" >
+        <th scope="row">ACM-14</th>
+        <td>Management of internally displaced people</td>
+        <td class="td1"><a (click)="Click()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+        <td class="td1"><a href="https://drive.google.com/file/d/1M47TJ0SEw0Si3-m8xYI5gK0mriSR9VBg/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td>  
+        <td class="td1"><a href="https://drive.google.com/file/d/1M56GbMVlBkthEi6GeqOdjXYfDHDzUlUa/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td>       
+      </tr>
+
+      <tr class="fade-in" >
+        <th scope="row">ACM-15</th>
+        <td>Climate change</td>
+        <td class="td1"><a (click)="Click()"><i class="fa-solid fa-file-pdf fa-xl" style="color: #8c182f;"></i></a></td>
+        <td class="td1"><a href="https://drive.google.com/file/d/1Y39k8KQaHCtf0fel7r7q5Icnjc-4tddS/view?usp=drive_link"><i class="fa-sharp fa-solid fa-file-audio fa-xl" style="color: #140296;"></i></a></td>  
+        <td class="td1">Nill</td>     
+      </tr>
+
+    </tbody>
+</table>
+

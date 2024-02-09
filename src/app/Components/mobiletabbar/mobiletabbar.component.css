@@ -1,0 +1,21 @@
+#custom-navbar .nav-link {
+    color: #eaeaea; /* Text color */
+  }
+  
+  #custom-navbar .nav-link.active,
+  #custom-navbar .nav-link:hover {
+    background-color: #2a9df4; /* Active/hover background color */
+    color: white; /* Text color on active/hover */
+  }
+  
+  #custom-navbar{
+    background-color: #10588c;
+  }
+
+  .nav-item{
+    margin: 0cm;
+  }
+
+  .nav{
+    border-bottom: 2px solid white;
+  }
